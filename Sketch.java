@@ -2,8 +2,8 @@ import processing.core.PApplet;
 
 public class Sketch extends PApplet {
   /**
-   * Creates a picture of a house, grass, and a sun
-   * and resizes to desired image size
+   * The program Sketch.java creates a picture of a house, grass, and a sun
+   * and resizes/scales to desired image size
    * @author: E.Fung
    */
   
