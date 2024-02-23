@@ -8,8 +8,7 @@ public class Sketch extends PApplet {
    */
   
 	// Initialize desired size of image and the original size of image
-	double dblNewSizeX = 600;
-  double dblNewSizeY = 600;
+	
   double dblOriginalSizeX = 400;
   double dblOriginalSizeY = 400;
   double dblMultiplierX;
@@ -17,11 +16,11 @@ public class Sketch extends PApplet {
 
   public void settings() {
 	  // put your size call here
-    size((int) dblNewSizeX, (int) dblNewSizeY);
+    size(600, 600);
     
     //Calculate Multiplier/Scaling Value
-    dblMultiplierX = dblNewSizeX / dblOriginalSizeX;
-    dblMultiplierY = dblNewSizeY / dblOriginalSizeY;
+    dblMultiplierX = width / dblOriginalSizeX;
+    dblMultiplierY = height / dblOriginalSizeY;
   }
 
   public void setup() {
