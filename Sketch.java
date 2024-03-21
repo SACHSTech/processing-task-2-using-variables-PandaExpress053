@@ -16,7 +16,7 @@ public class Sketch extends PApplet {
 
   public void settings() {
 	  // put your size call here
-    size(600, 600);
+    size(800, 800);
     
     //Calculate Multiplier/Scaling Value
     dblMultiplierX = width / dblOriginalSizeX;
